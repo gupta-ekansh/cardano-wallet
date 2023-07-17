@@ -39,22 +39,6 @@ function Details() {
                         </tr>
                     ))
                 }
-                <tr>
-                    <td className='border'>1</td>
-                    <td className='border'>1s</td>
-                </tr>
-                <tr>
-                    <td className='border'>1</td>
-                    <td className='border'>1s</td>
-                </tr>
-                <tr>
-                    <td className='border'>1</td>
-                    <td className='border'>1s</td>
-                </tr>
-                <tr>
-                    <td className='border'>1</td>
-                    <td className='border'>1s</td>
-                </tr>
                 </tbody>
                 
             </table>
