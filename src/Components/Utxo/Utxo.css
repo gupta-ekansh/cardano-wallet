@@ -1,0 +1,38 @@
+.utxo{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.utxo-container{
+    margin-top: 200px;
+    padding:30px;
+    height:fit-content;
+    width:fit-content;
+    border-radius: 50px;
+    word-break: break-all;
+}
+.utxo-li{
+    margin-top: 5px;
+    padding:15px;
+    border-radius: 50px;
+    height:fit-content;
+    width: fit-content;
+    /* background-color: red; */
+    background-color: rgb(27, 36, 58);
+    font-size: 15px;
+}
+.utxo-btn{
+    /* background-color: red; */
+    /* margin-top: 25px; */
+}
+@media only screen and (max-width:650px){
+    .utxo-container{
+        margin-top: 550px;
+    }
+    .utxo-li table{
+        width:80%;
+    }
+}

@@ -1,0 +1,41 @@
+.add_transc{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.add_transc_container{
+    width:max-content;
+    height:max-content;
+    padding:20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    word-break:break-all;
+}
+td,th{
+    text-align: center;
+}
+.add_transc_container table{
+    width:90vw;
+    height:15%;
+    font-size: 20px;
+}
+body{
+    color:white;
+}
+.add_transc_heading{
+    font-size: 50px;
+}
+.add_transc_go_back{
+    margin-top: 50px;
+}
+/* @media only screen and (max-width:1210px){
+    .add_transc_container table thead {
+        font-size: 15px;
+    }
+} */
